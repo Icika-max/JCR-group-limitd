@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  /* background-image: url('https://thumbs.dreamstime.com/z/construction-worker-construction-site-10936335.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  color: #fff;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  
+  
+}
+/* 
+.products {
+ 
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+.sign-up {
+  background-image: url('https://media.istockphoto.com/id/1418799404/photo/excavators-working-on-construction-site-at-sunset.jpg?s=1024x1024&w=is&k=20&c=iMsL9YnQ2dGobBUddgWyeBqsicGeLt21p7lKqSFWtCs=');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.para{
+  color: white;
+  font-style: italic;
+  text-align:center;
+  max-width: 800px;
+  margin: auto;
+  font-size:x-large;
+}
+.list{
+  max-width: 500px;
+}
+.head{
+  color: rgb(100, 84, 65);
+}
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.head-pro{
+  color: rgb(164, 15, 15);
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: auto;
+
+  
+}
+.product-list{
+  color: #fff;
+  font-size: 40px;
+  display:block;
+  text-align:start;
+  list-style-type: decimal;
+}
