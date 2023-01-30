@@ -1,1 +1,1 @@
-# JCR-group-limitd
+# JCR-group-limited
