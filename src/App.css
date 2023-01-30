@@ -82,4 +82,7 @@ video {
   display:block;
   text-align:start;
   list-style-type: decimal;
+  padding: 80px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
